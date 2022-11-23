@@ -19,6 +19,7 @@ CREATE TABLE Title (
 CREATE TABLE Author (
 	AuthorID int NOT NULL,
 	FirstName varchar(30) NOT NULL,
+	MiddleName varchar(30) NULL,
 	LastName varchar(30) NOT NULL,
 	PaymentMethod varchar(50) NOT NULL
 );
@@ -79,19 +80,19 @@ VALUES
 	(107, 'The Call of the While', 8.95, 2500, 15, '2020-03-14'),
 	(108, 'The Sum Also Rises', 7.95, 5000, 12, '2021-11-12');
 
-INSERT INTO Author (AuthorID, FirstName, LastName, PaymentMethod)
+INSERT INTO Author (AuthorID, FirstName, MiddleName, LastName, PaymentMethod)
 VALUES 
-	(1, 'Paul', 'Tripp', 'Cash'),
-	(2, 'Doug', 'Li', 'Check'),
-	(3, 'Jen', 'Strong', 'Check'),
-	(4, 'Jorge', 'Guerra', 'Check'),
-	(5, 'Robert', 'Davidson', 'Check'),
-	(6, 'Gail', 'Shawn', 'Check'),
-	(7, 'Rebecca', 'Miller', 'Check'),
-	(8, 'Andy', 'Melkin', 'Direct Deposit'),
-	(9, 'Buck', 'Fernandez', 'Cash'),
-	(10, 'Chris', 'Walenski', 'Direct Deposit'),
-	(11, 'Deepthi', 'Mahadevan', 'Direct Deposit');
+	(1, 'Paul', 'K', 'Tripp', 'Cash'),
+	(2, 'Doug', NULL, 'Li', 'Check'),
+	(3, 'Jen', NULL, 'Strong', 'Check'),
+	(4, 'Jorge', 'Armando', 'Guerra', 'Check'),
+	(5, 'Robert', 'Grant', 'Davidson', 'Check'),
+	(6, 'Gail', 'Anne', 'Shawn', 'Check'),
+	(7, 'Rebecca', NULL, 'Miller', 'Check'),
+	(8, 'Andy', NULL, 'Melkin', 'Direct Deposit'),
+	(9, 'Buck', NULL, 'Fernandez', 'Cash'),
+	(10, 'Chris', NULL, 'Walenski', 'Direct Deposit'),
+	(11, 'Deepthi', NULL, 'Mahadevan', 'Direct Deposit');
 
 INSERT INTO TitleAuthor (TitleID, AuthorID, AuthorOrder)
 VALUES 
