@@ -70,6 +70,6 @@ SELECT
 FROM title
 WHERE Price = 9.95
 AND PublicationDate = '2016-02-06'
-OR Advance = 6000
+OR Advance = 5000
 ORDER BY TitleName;
 
