@@ -125,7 +125,7 @@ VALUES
 	(13, 'Ming', 'Zhou', '42 S Walsh St', 'Portsmouth', 'NH', '03801', 'USA'),
 	(14, 'Jack', 'Sato', '242 S Corbett St', 'Burlington', 'VT', '05401', 'USA'),
 	(15, 'Joe', 'Pagenaud', '59 E Fleming St', 'Detroit', 'MI', '48202', 'USA'),
-	(16, 'Tara', 'Di Silvestro', '789 N Kiser St', 'San Diego', 'CA', '92101', 'USA'),
+	(16, 'Tara', 'Di Silvestro', '789 N Kizer St', 'San Diego', 'CA', '92101', 'USA'),
 	(17, 'Sandra', 'Calderon', '5 W Delany St', 'Denver', 'CO', '80014', 'USA'),
     (18, 'Margaret', 'Montoya', '48 Clark St', 'Monterey', 'CA', '93940', 'USA'),
     (19, 'Monica', 'Newgarden', '99 Lynn St', 'Clayton', 'MO', '63105', 'USA'),
