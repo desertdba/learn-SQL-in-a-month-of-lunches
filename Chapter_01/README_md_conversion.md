@@ -10,4 +10,4 @@ The "Gremlins" extension also finds all the non-ASCII special characters that Mi
 
 The "mdlint" extension also highlights some Markdown best practices and these have been included in the conversion.
 
-Angle brackets have special HTML meaning and have been converted to escaped HTML (&amp;lt; or &amp;gt) manually.
+Angle brackets have special HTML meaning and if the Markdown will be post-processed, they will need to be converted to escaped HTML (&amp;lt; or &amp;gt.) In this case, the expected audience will be viewing the Markdown directly on GitHub so this step is optional.
