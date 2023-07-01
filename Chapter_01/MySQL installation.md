@@ -67,3 +67,13 @@ Click OK to connect to your local MySQL, and suddenly there will be a whole lot 
 ![MySQL Workbench](MySQL%20installation_2023-07-01-08-43-06.png)
 
 When you're done looking around, go ahead and select "File" then "Exit", or just click the big "X" in the upper-right corner to exit the Workbench.
+
+## Add MySQL Workbench to Start Menu
+
+The above does not automatically add a menu item for opening MySQL Workbench in the future. An easy way to add this is to navigate to the installation directory (`C:\Program Files\MySQL\MySQL Workbench 8.0`) in Windows Explorer, then right click on `MySQLWorkbench.exe` and select **Pin to Start**:
+
+![Pin to Start](MySQL%20installation_2023-07-01-09-26-22.png)
+
+You can then start MySQL Workbench by using the pinned icon in your start menu.
+
+If it looks like the above "lunch" user has vanished, it's probably because you're now running the workbench as your normal user instead of the Administrator used during installation. You'll need to repeat the above steps to re-add the connection using the "lunch" user.
