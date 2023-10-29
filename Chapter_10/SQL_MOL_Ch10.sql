@@ -109,7 +109,8 @@ INNER JOIN promotion p
 
 /*
 Find the PromotionID values that exist in both the orderheader and promotion tables using INTERSECT.
-This is not supported in MySQL.
+*** This is not supported in MySQL prior to version 8.0.31. ***
+*/
 
 SELECT
     PromotionID
@@ -118,7 +119,7 @@ INTERSECT
 SELECT
     PromotionID
 FROM promotion;
-*/
+
 
 /*
 Find all the promotion ID values in the promotion table that were not used in any orders in the orderheader table, using a LEFT JOIN. 
@@ -132,7 +133,8 @@ WHERE oh.PromotionID IS NULL;
 
 /*
 Find all the promotion ID values in the promotion table that were not used in any orders in the orderheader table, using EXCEPT. 
-This is not supported in MySQL.
+*** This is not supported in MySQL prior to version 8.0.31. ***
+*/
 
 SELECT
     PromotionID
@@ -141,7 +143,7 @@ EXCEPT
 SELECT
     PromotionID
 FROM orderheader;
-*/
+
 
 
 
