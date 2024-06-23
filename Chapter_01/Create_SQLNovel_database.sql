@@ -104,9 +104,9 @@ VALUES
 	(106, 7, 1),
 	(107, 11, 1),
 	(107, 1, 2),
-	(102, 8, 1),
-	(102, 9, 2),
-	(102, 10, 3);
+	(108, 8, 1),
+	(108, 9, 2),
+	(108, 10, 3);
 
 INSERT INTO Customer (CustomerID, FirstName, LastName, Address, City, State, Zip, Country)
 VALUES
